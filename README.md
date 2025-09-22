@@ -1,59 +1,61 @@
 Advanced Bank Loan Data Analysis | Power BI Project
 
-Project Overview
-The Advanced Bank Loan Data Analysis project leverages Power BI to transform raw loan data into actionable insights for strategic decision-making. Traditional reporting methods often lack depth and interactivity, limiting the ability to analyze borrower behavior, loan performance, and lending trends effectively. This project aims to fill that gap by creating dynamic and interconnected dashboards that provide a comprehensive view of lending operations, borrower demographics, and financial metrics.
+# 📊 Bank Loan Data Insights Dashboard
 
-The dashboards are designed to empower decision-makers with clear, data-driven insights that improve financial planning, risk assessment, and overall operational efficiency.
+An interactive **Power BI dashboard** to analyze and visualize **bank loan performance** across multiple dimensions such as loan applications, funded amount, received payments, interest rates, and debt-to-income (DTI) ratio.
 
-Problem Statement:
-Traditional loan reporting methods often lack interactivity and depth, making it challenging to extract meaningful insights for decision-making. This project addresses the need for a holistic, interactive dashboard system to analyze lending patterns, borrower behavior, and loan performance.
+---
 
-Objectives:
-Develop interconnected dashboards that provide dynamic insights into loan data.
-Monitor critical KPIs such as total applications, funded amounts, received amounts, average interest rate, and debt-to-income ratio (DTI).
-Enable segmentation of loans into "Good" and "Bad" categories and detailed status analysis.
-Facilitate strategic decisions through interactive visualizations of trends, borrower demographics, loan purposes, and home ownershi
+## 🚀 Project Overview
+This project provides data insights into **bank loan applications (38K+ records)**.  
+It helps identify trends, loan quality, and customer behavior to support **data-driven decision making**.
 
-Dashboards:
-Executive Summary
-Provides a high-level view of key metrics including total loan applications, funded amount, received amount, average interest rate, and average DTI.
-Highlights the proportion of good vs bad loans and detailed loan status for decision support.
+Key highlights:
+- **Summary Page**: Overall KPIs (Applications, Funded Amount, Received Amount, Avg. Interest Rate, Avg. DTI).
+- **Good vs Bad Loans**: Segmentation with percentage distribution and detailed breakdown.
+- **Overview Page**:  
+  - Loan applications by month  
+  - Loan distribution by state (map)  
+  - Loan term (36 vs 60 months)  
+  - Applications by employee length  
+  - Applications by purpose (credit card, debt consolidation, etc.)  
+  - Applications by home ownership  
+- **Details Page**: Tabular drill-down view with ID, purpose, grade, amount, interest rate, and installment details.
 
-Trends & Overview
-Interactive visualizations to analyze monthly trends, regional distributions, loan terms, employment length, loan purposes, and home ownership.
-Enables pattern recognition and identification of opportunities in lending operations.
+---
 
-Detailed Insights
-Deep dive into loan-level data with a comprehensive grid showing purpose, funded amount, interest rate, installment, received amount, and borrower information.
-Supports granular analysis and informed decision-making.
+## 📂 Project Files
+- `Bank_Loan_Report.pbix` → Power BI file  
+- `financial_loan.csv` (or data source)  
+- Screenshots → Dashboard previews  
 
-Key Features:
-1. Executive Summary Dashboard
-Provides a high-level overview of essential KPIs to evaluate lending efficiency:
-Total Loan Applications: Tracks total and Month-to-Date (MTD) applications with Month-over-Month (MoM) trend analysis.
-Total Funded Amount: Monitors cumulative and MTD disbursed funds to understand funding patterns.
-Total Amount Received: Assesses cash inflows and financial health through received amounts.
-Average Interest Rate: Measures cost of lending, including MTD and MoM variations.
-Average Debt-to-Income Ratio (DTI): Evaluates borrower financial resilience.
-Loan Performance Analysis: Categorizes loans as "Good" or "Bad" and includes a detailed Loan Status Grid View for granular insights.
 
-2. Trends & Overview Dashboard
-Visualizes lending trends, borrower demographics, and loan purposes for pattern recognition:
-Monthly Trends by Issue Date (Line Chart)
-Regional Analysis by State (Filled Map)
-Loan Term Distribution (Donut Chart)
-Employment Length Analysis (Bar Chart)
-Home Ownership Analysis (Tree Map)
-Loan Purpose Breakdown (Bar Chart)
+---
 
-3. Detailed Insights Dashboard
-Offers a deep dive into the loan portfolio:
-Access comprehensive metrics for individual loans
-Interactive filtering and drill-through analysis
-Facilitates granular decision-making and risk assessment
+## 🛠 Tools & Technologies
+- **Power BI** → Dashboard & data visualization  
+- **SQL / Excel** → Data cleaning and preparation  
 
-Technologies & Tools
-Power BI Desktop: Dashboard development and visualization
-DAX: Advanced calculations for KPIs
-Power Query: Data cleaning, transformation, and integration
-SQL Server / Excel: Data sources for loan information
+---
+
+## 📈 Key Insights
+- **Total Loan Applications**: 38.6K  
+- **Total Funded Amount**: $435.8M  
+- **Total Received Amount**: $473.1M  
+- **Good Loans**: 86.2%  
+- **Bad Loans**: 13.8%  
+
+---
+
+## 🔮 Future Improvements
+- Add predictive analysis for **loan default probability**.  
+- Automate data refresh using SQL server or cloud data source.  
+- Expand filters for **demographics & income level segmentation**.  
+
+---
+
+## 👤 Author
+**Nikhil**  
+💼 Data Enthusiast | Power BI | SQL | Excel  
+
+
